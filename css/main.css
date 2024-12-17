@@ -68,7 +68,7 @@ body::-webkit-scrollbar-thumb {
 .container {
   --bs-gutter-x: 40px;
 }
-@media (min-width: 1500px) {
+@media (min-width: 1450px) {
   .container {
     max-width: 1180px;
   }
@@ -1553,4 +1553,39 @@ footer {
   .contact-section {
     padding: 70px 0 35px;
   }
+}
+
+.empty-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.empty-content :last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 1450px) {
+  .empty-content {
+    padding-top: 55px;
+  }
+}
+
+.empty-icon {
+  font-size: 72px;
+  color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.empty-desc {
+  font-size: 18px;
+  font-weight: 500;
+  color: #999999;
+  margin: 0 0 35px;
+}
+
+.empty-btn {
+  text-transform: uppercase;
 }/*# sourceMappingURL=main.css.map */
