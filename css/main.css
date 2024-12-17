@@ -1637,4 +1637,60 @@ footer {
 .success-btn:hover {
   background-color: #85a098;
   color: #fff;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+  padding-top: 30px;
+}
+@media (max-width: 991px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .about-content {
+    padding: 0;
+    gap: 20px;
+  }
+}
+
+.about-img {
+  width: 100%;
+  max-width: 555px;
+  aspect-ratio: 554/427;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  margin: 0 auto;
+}
+
+.about-desc {
+  font-size: 22px;
+  line-height: 1.636;
+  color: #333951;
+}
+.about-desc p {
+  margin-bottom: 20px;
+}
+.about-desc :last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 1199px) {
+  .about-desc {
+    font-size: 18px;
+  }
+}
+@media (max-width: 991px) {
+  .about-desc {
+    font-size: 22px;
+  }
+}
+@media (max-width: 767px) {
+  .about-desc {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=main.css.map */
