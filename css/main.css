@@ -1588,4 +1588,53 @@ footer {
 
 .empty-btn {
   text-transform: uppercase;
+}
+
+.success-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.success-content .section-head {
+  margin-bottom: 30px;
+  gap: 15px;
+}
+.success-content .section-desc {
+  font-size: 18px;
+}
+.success-content :last-child {
+  margin-bottom: 0;
+}
+
+.success-icon {
+  font-size: 72px;
+  color: #41dc23;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.success-btns {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.success-btn {
+  width: 100%;
+}
+.success-btn:first-of-type {
+  background-color: #333951;
+}
+.success-btn:focus {
+  color: #fff;
+}
+.success-btn:hover {
+  background-color: #85a098;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
