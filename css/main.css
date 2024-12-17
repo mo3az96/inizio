@@ -1290,6 +1290,19 @@ header {
     transition: all 0.3s ease-in-out 0.5s;
   }
 }
+.inner-body {
+  padding-top: var(--header);
+}
+
+.page-content {
+  padding: 80px 0 60px;
+}
+@media (max-width: 767px) {
+  .page-content {
+    padding: 50px 0 35px;
+  }
+}
+
 footer {
   padding: 60px 0 70px;
   overflow: hidden;
