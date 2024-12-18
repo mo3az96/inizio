@@ -3,6 +3,15 @@ $(window).on("load", function () {
 });
 $(document).ready(function () {
   lazyLoad();
+  /************************************ Fixed Header ************************************/
+  $(this).scrollTop() >= 50
+    ? $("header").addClass("fixed")
+    : $("header").removeClass("fixed ");
+  $(window).scroll(function () {
+    $(this).scrollTop() >= 50
+      ? $("header").addClass("fixed")
+      : $("header").removeClass("fixed ");
+  });
   /************************************ Navbar ************************************/
   $(".menu-btn").click(function () {
     if ($(".header-nav").is(":visible")) {
