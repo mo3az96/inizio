@@ -68,4 +68,9 @@ $(document).ready(function () {
       },
     },
   });
+  /************************************ Coupon ************************************/
+  $(".coupon-trigger button").click(function (e) {
+    e.preventDefault();
+    $(".cart-coupon").slideDown();
+  });
 });
