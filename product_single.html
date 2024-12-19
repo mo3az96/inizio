@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Inizio Store" />
+    <meta name="theme-color" content="#e88282" />
+    <title>Inizio | Product</title>
+    <link rel="shortcut icon" type="img/png" href="images/favicon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css"
+      integrity="sha512-N2IsWuKsBYYiHNYdaEuK4eaRJ0onfUG+cdZilndYaMEhUGQq/McsFU75q3N+jbJUNXm6O+K52DRrK+bSpBGj0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body class="inner-body">
+    <!-- Start Header -->
+    <header class="header-section">
+      <div class="container">
+        <div class="header">
+          <nav class="header-nav">
+            <div class="background">
+              <div class="portion"></div>
+              <div class="portion"></div>
+              <div class="portion"></div>
+            </div>
+            <div class="nav-content">
+              <ul class="nav-list">
+                <li>
+                  <a href="index.html" aria-label="menu link">Home</a>
+                </li>
+                <li>
+                  <a href="products.html" aria-label="menu link"> Products</a>
+                </li>
+                <li>
+                  <a href="about.html" aria-label="menu link"> About</a>
+                </li>
+                <li>
+                  <a href="contact.html" aria-label="menu link"> Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="header-tools mobile">
+            <div class="nav-trigger">
+              <button class="menu-btn">
+                <div class="btn-bar menu"></div>
+                <div class="btn-bar menu"></div>
+                <div class="btn-bar menu"></div>
+                <div class="btn-bar close"></div>
+                <div class="btn-bar close"></div>
+              </button>
+            </div>
+            <div class="user-content">
+              <button class="user-btn header-icon" aria-label="User Icon">
+                <i class="fal fa-user"></i>
+              </button>
+              <ul class="user-list">
+                <li>
+                  <button
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#loginModal"
+                    aria-label="Login Modal Trigger"
+                  >
+                    Login
+                  </button>
+                </li>
+                <li>
+                  <a href="register.html" aria-label="Register Link">
+                    Register
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="index.html" class="logo" aria-label="Logo">
+            <div class="logo-holder">
+              <img src="images/logo.png" alt="logo" class="img-contain" />
+            </div>
+            <div class="logo-holder second-logo loading-img lazy-img-parent">
+              <img
+                data-src="images/second_logo.png"
+                alt="logo"
+                class="img-contain lazy-img"
+              />
+            </div>
+          </a>
+          <div class="header-tools">
+            <a href="ar/index.html" class="header-icon" aria-label="Logo">
+              <i class="fal fa-globe"></i>
+            </a>
+            <div class="user-content">
+              <button class="user-btn header-icon" aria-label="User Icon">
+                <i class="fal fa-user"></i>
+              </button>
+              <ul class="user-list">
+                <li>
+                  <button
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#loginModal"
+                    aria-label="Login Modal Trigger"
+                  >
+                    Login
+                  </button>
+                </li>
+                <li>
+                  <a href="register.html" aria-label="Register Link">
+                    Register
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a
+              href="cart.html"
+              class="cart-link header-icon"
+              aria-label="Cart Link"
+            >
+              <i class="fal fa-shopping-bag"></i>
+              <span class="badge"> 0 </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Page Content -->
+    <section class="page-content">
+      <div class="container">
+        <div class="product-page">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="product-imgs">
+                <div class="product_images-slider">
+                  <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <a
+                          href="images/products/1.png"
+                          data-fancybox="product"
+                          class="product_main-img loading-img lazy-img-parent"
+                        >
+                          <img
+                            data-src="images/products/1.png"
+                            class="lazy-img"
+                          />
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a
+                          href="images/products/5.png"
+                          data-fancybox="product"
+                          class="product_main-img loading-img lazy-img-parent"
+                        >
+                          <img
+                            data-src="images/products/5.png"
+                            class="lazy-img"
+                          />
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a
+                          href="images/products/2.png"
+                          data-fancybox="product"
+                          class="product_main-img loading-img lazy-img-parent"
+                        >
+                          <img
+                            data-src="images/products/2.png"
+                            class="lazy-img"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-btn-prev swiper-btn">
+                    <i class="fal fa-arrow-circle-left"></i>
+                  </div>
+                  <div class="swiper-btn-next swiper-btn">
+                    <i class="fal fa-arrow-circle-right"></i>
+                  </div>
+                </div>
+                <div class="product_thumbs-slider">
+                  <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div
+                          class="product_main-thumb loading-img lazy-img-parent"
+                        >
+                          <img
+                            data-src="images/products/1.png"
+                            class="img-contain lazy-img"
+                          />
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div
+                          class="product_main-thumb loading-img lazy-img-parent"
+                        >
+                          <img
+                            data-src="images/products/5.png"
+                            class="img-contain lazy-img"
+                          />
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div
+                          class="product_main-thumb loading-img lazy-img-parent"
+                        >
+                          <img
+                            data-src="images/products/2.png"
+                            class="img-contain lazy-img"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="product-info">
+                <h1 class="product-title">Inizio anti-dandruff shampoo</h1>
+                <div class="product-price product_single-item">
+                  <strong class="current-price"> EGP 235 </strong>
+                  <del class="old-price"> EGP 250 </del>
+                </div>
+                <div class="product-desc product_single-item">
+                  <div class="desc-item">
+                    <strong>Action</strong>
+                    <p>
+                      A special formula shampoo SLS free with a natural growth
+                      factors, plant extract, oils & vitamins to protect your
+                      damaged & weak hair and stop hair loss with extra
+                      conditioning care.
+                    </p>
+                  </div>
+                  <div class="desc-item">
+                    <strong>Volume</strong>
+                    <p>250 Ml</p>
+                  </div>
+                </div>
+                <div class="product-form product_single-item">
+                  <div class="product-qty">
+                    <button
+                      class="qty-btn"
+                      type="button"
+                      onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                    >
+                      <i class="fal fa-plus"></i>
+                    </button>
+                    <input
+                      type="number"
+                      class="qty-input"
+                      value="1"
+                      min="1"
+                      max="100"
+                      readonly
+                    />
+                    <button
+                      class="qty-btn"
+                      type="button"
+                      onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                    >
+                      <i class="fal fa-minus"></i>
+                    </button>
+                  </div>
+                  <div class="product-btns">
+                    <button class="section-btn product-btn">Add To Cart</button>
+                    <a href="checkout.html" class="section-btn product-btn">
+                      Buy Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Page Content -->
+
+    <!-- Start Footer -->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer">
+          <div class="footer-logo loading-img lazy-img-parent">
+            <img
+              data-src="images/logo.png"
+              class="img-contain lazy-img"
+              alt="Inizio Store"
+            />
+          </div>
+          <ul class="footer-contacts">
+            <li>
+              <a
+                href="tel:01113335334"
+                class="contact-method"
+                aria-label="telephone number"
+              >
+                <i class="fal fa-mobile"></i>
+                <span class="en">01113335334</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="tel:01060038149"
+                class="contact-method"
+                aria-label="telephone number"
+              >
+                <i class="fal fa-mobile"></i>
+                <span class="en">01060038149</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:info@inizio-group.com"
+                class="contact-method"
+                aria-label="email address"
+              >
+                <i class="fal fa-envelope"></i>
+                <span class="en">info@inizio-group.com</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/iniziogroup"
+                target="_blank"
+                class="contact-method"
+                aria-label="instagram page"
+              >
+                <i class="fab fa-instagram"></i>
+                <span class="en">iniziogroup</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p class="copyrights">
+          © 2025, INIZIO Powered by
+          <a href="https://gegraphsa.com/" target="_blank">Gegraph</a>
+        </p>
+      </div>
+    </footer>
+    <div class="float-icons">
+      <a
+        href="tel:01113335334"
+        class="float-icon"
+        aria-label="telephone number"
+      >
+        <i class="fal fa-mobile"></i>
+      </a>
+      <a
+        href="https://wa.me/201113335334"
+        class="float-icon"
+        aria-label="whatsapp number"
+      >
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Start Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          >
+            <i class="fal fa-times"></i>
+          </button>
+          <div class="modal-body">
+            <div class="login-form">
+              <div class="login-container">
+                <div class="modal-head">
+                  <h2 class="modal-title">Welcome!</h2>
+                  <p class="modal-desc">
+                    Enter your login info , If you don’t have
+                    <a href="register.html" aria-label="Register Link">
+                      Register now
+                    </a>
+                  </p>
+                </div>
+                <form>
+                  <div class="form-group">
+                    <label class="form-label" for="login_telephone">
+                      Mobile
+                    </label>
+                    <input
+                      class="form-control"
+                      type="tel"
+                      id="login_telephone"
+                      name="telephone"
+                      placeholder="01xxxxxxxxx"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="login_password">
+                      Password
+                    </label>
+                    <input
+                      class="form-control"
+                      type="password"
+                      id="login_password"
+                      name="password"
+                      placeholder="*******"
+                    />
+                  </div>
+
+                  <div class="form-group checkbox">
+                    <label for="login_remember">
+                      <input
+                        type="checkbox"
+                        name="remember"
+                        value="true"
+                        id="login_remember"
+                      />
+                      <span class="mark"></span>
+                      Remember me
+                    </label>
+                  </div>
+                  <button type="submit" class="form-submit" aria-label="Login">
+                    Login
+                  </button>
+                </form>
+                <div class="forgot-password">
+                  <a href="#!" aria-label="forgot password">
+                    Forget your pasword?
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Login Modal -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"
+      integrity="sha512-h5Vv+n+z0eRnlJoUlWMZ4PLQv4JfaCVtgU9TtRjNYuNltS5QCqi4D4eZn4UkzZZuG2p4VBz3YIlsB7A2NVrbww=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

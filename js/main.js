@@ -73,4 +73,42 @@ $(document).ready(function () {
     e.preventDefault();
     $(".cart-coupon").slideDown();
   });
+  /************************************ Product Page ************************************/
+  var productThumbsSlider = new Swiper(".product_thumbs-slider .swiper", {
+    breakpoints: {
+      0: {
+        spaceBetween: 5,
+        slidesPerView: 3,
+      },
+      767: {
+        spaceBetween: 15,
+        slidesPerView: 5,
+      },
+      992: {
+        slidesPerView: 4,
+        spaceBetween: 15,
+      },
+    },
+    on: {
+      init: function (swiper) {
+        lazyLoad();
+      },
+    },
+  });
+  var productImagesSlider = new Swiper(".product_images-slider .swiper", {
+    spaceBetween: 10,
+    thumbs: {
+      swiper: productThumbsSlider,
+    },
+    navigation: {
+      nextEl: ".product_images-slider .swiper-btn-next",
+      prevEl: ".product_images-slider .swiper-btn-prev",
+    },
+    on: {
+      init: function (swiper) {
+        lazyLoad();
+      },
+    },
+  });
+  Fancybox.bind("[data-fancybox]");
 });
